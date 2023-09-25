@@ -3,9 +3,13 @@ import DonationCategories from "../DonationCategories/DonationCategories";
 
 const Home = () => {
   return (
-    <div>
-        <Banner></Banner>
-        <DonationCategories></DonationCategories>
+    <div className="flex flex-col static">
+        <div className="static">
+            <Banner></Banner>
+            </div>
+        <div className="absolute max-lg:relative lg:top-[1150px]">
+            <DonationCategories></DonationCategories>
+            </div>
     </div>
   );
 };

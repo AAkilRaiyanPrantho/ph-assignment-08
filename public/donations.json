@@ -6,7 +6,7 @@
     "category": "Food",
     "category_bg": "#FF5733",
     "card_bg": "#FFE0B2",
-    "text_button_bg": "#FF8F00",
+    "text_button_bg": "#9F0000",
     "description": "Join us in the fight against hunger by supporting our Feed the Hungry campaign. Your generous donation provides nutritious meals to individuals and families who are struggling to put food on their tables. Hunger knows no bounds, and in these challenging times, access to sustenance is a basic human right. Your contribution directly impacts the lives of those facing food insecurity, offering not just nourishment but also a glimmer of hope and relief from the burdens of hunger. By donating, you're helping us make a tangible difference in the lives of the most vulnerable in our community, ensuring that no one goes to bed hungry. Join us in this essential mission to alleviate hunger and create a world where everyone has access to the food they need. Donate now and be a part of our commitment to feed the hungry and build a brighter future for all.",
     "price": 25.0
   },
@@ -17,7 +17,7 @@
     "category": "Health",
     "category_bg": "#4CAF50",
     "card_bg": "#D0F0C0",
-    "text_button_bg": "#219621",
+    "text_button_bg": "#02470C",
     "description": "Be a beacon of hope for individuals in need by contributing to our Support Medical Care campaign. Your generous donation directly enhances access to critical healthcare services, medical treatments, and support for those facing health challenges. In times of illness or hardship, access to quality medical care is essential, and your contribution ensures that individuals receive the care and attention they deserve. By donating, you're helping us bridge the gap in healthcare access, providing relief to those navigating medical journeys, and improving the overall well-being of our community. Your support promotes a healthier and more resilient community by empowering individuals to seek and receive the medical care they require. Join us in making a significant impact on the lives of those in need. Donate now and be a part of our mission to support medical care and bring healing to those who need it most.",
     "price": 50.0
   },
@@ -39,7 +39,7 @@
     "category": "Clothing",
     "category_bg": "#F06292",
     "card_bg": "#FFCDD2",
-    "text_button_bg": "#E57373",
+    "text_button_bg": "#800080",
     "description": "Join us in making a difference in the lives of those facing adversity by supporting our Clothing for All campaign. Your generous donation ensures that individuals and families in need have access to warm and essential clothing, especially during harsh weather conditions. Every article of clothing you provide is more than just fabric; it's a source of warmth, dignity, and protection from the elements. By donating, you're offering comfort and a renewed sense of self-worth to those less fortunate in our community. Your contribution helps individuals stay warm during the colder seasons and enables them to face life's challenges with resilience and dignity. Join us in spreading warmth and compassion. Donate now and be a part of our mission to provide clothing for all, one piece at a time, and make a meaningful impact on the lives of those we serve.",
     "price": 20.0
   },
@@ -50,7 +50,7 @@
     "category": "Food",
     "category_bg": "#FF5733",
     "card_bg": "#FFE0B2",
-    "text_button_bg": "#FF8F00",
+    "text_button_bg": "#9F0000",
     "description": "Make a meaningful difference in the lives of struggling families by supporting our Meal Kits for Families campaign. Your generous donation ensures that nutritious meals reach those in need, alleviating the daily challenges of putting food on the table. In times of financial hardship or crisis, access to wholesome food is a basic necessity, and your contribution directly addresses this vital need. Each meal kit you provide is a source of nourishment, comfort, and hope for families facing adversity. By donating, you're not just offering sustenance; you're extending a helping hand, fostering resilience, and making it easier for families to focus on their well-being and future. Join us in the fight against hunger and be a lifeline for families in distress. Donate now and help us make a lasting impact on the dinner tables and lives of those we serve.",
     "price": 35.0
   },
@@ -61,7 +61,7 @@
     "category": "Health",
     "category_bg": "#4CAF50",
     "card_bg": "#D0F0C0",
-    "text_button_bg": "#219621",
+    "text_button_bg": "#02470C",
     "description": "Support groundbreaking medical research that has the power to change lives and reshape the future of healthcare. Your donation fuels the quest for innovative discoveries, breakthrough treatments, and life-saving interventions. By contributing to our Medical Research campaign, you're directly empowering scientists and researchers to explore new frontiers in medicine, unravel the mysteries of diseases, and develop cutting-edge therapies. Your generosity not only enhances the quality of healthcare but also brings hope to patients and families worldwide. Every dollar you give accelerates the progress toward a healthier, brighter future. Join us in this vital mission to advance medical knowledge, improve lives, and make a lasting impact on global health. Donate today and be a part of transformative medical breakthroughs.",
     "price": 75.0
   },
@@ -83,7 +83,7 @@
     "category": "Clothing",
     "category_bg": "#F06292",
     "card_bg": "#FFCDD2",
-    "text_button_bg": "#E57373",
+    "text_button_bg": "#800080",
     "description": "Help us make winter warmer and more comfortable for those in need by contributing to our Warm Winter Coats campaign. Your generous donation ensures that individuals and families facing the harsh cold have access to high-quality, protective winter coats. In freezing temperatures, a warm coat is not just clothing; it's a lifeline, offering physical warmth, security, and dignity. Your support directly impacts lives by providing essential protection from the elements and the reassurance that someone cares. By donating, you're not only keeping bodies warm but also kindling the warmth of compassion in the hearts of those you help. Join us in spreading the gift of warmth and making winter a little brighter for those less fortunate in our community. Donate now and be a part of our mission to keep people warm, one coat at a time.",
     "price": 30.0
   },
@@ -94,7 +94,7 @@
     "category": "Food",
     "category_bg": "#FF5733",
     "card_bg": "#FFE0B2",
-    "text_button_bg": "#FF8F00",
+    "text_button_bg": "#9F0000",
     "description": "In times of crisis, hunger should never be an added burden. Join our Emergency Food Aid initiative and make a direct impact on the lives of those facing food shortages during emergencies. Your donation ensures that vital food supplies reach the most vulnerable in our community, offering sustenance, relief, and hope when it's needed most. Whether it's a natural disaster, a pandemic, or unforeseen circumstances, your contribution will help us respond swiftly to provide nourishment and support to those affected. Be a lifeline for families in distress; donate today to help us deliver essential food aid when it matters most. Together, we can make a real difference in times of crisis.",
     "price": 45.0
   },
@@ -105,7 +105,7 @@
     "category": "Health",
     "category_bg": "#4CAF50",
     "card_bg": "#D0F0C0",
-    "text_button_bg": "#219621",
+    "text_button_bg": "#02470C",
     "description": "Make a difference in the lives of those facing mental health challenges. Your donation to our Support Mental Health campaign will help provide access to essential mental health services, counseling, and therapy for individuals in need. Together, we can break the stigma surrounding mental health and offer support to those on their journey to well-being. Join us in fostering mental wellness and healing. Donate now and be a part of a compassionate and caring community.",
     "price": 60.0
   },
@@ -127,7 +127,7 @@
     "category": "Clothing",
     "category_bg": "#F06292",
     "card_bg": "#FFCDD2",
-    "text_button_bg": "#E57373",
+    "text_button_bg": "#800080",
     "description": "Support the Uniforms for Education campaign and give children in need the confidence to excel academically. Your donation ensures that every child has access to a school uniform, removing financial barriers and fostering a sense of equality. Help us empower these young minds and create a brighter, more inclusive future. Give the gift of education today!",
     "price": 15.0
   }

@@ -12,7 +12,7 @@ const DonationCategories = () => {
     
     
     return (
-        <div className="grid grid-cols-1 w-full max-lg:px-5 md:max-lg:px-48 lg:grid-cols-4 px-20 gap-20 my-10">
+        <div className="grid grid-cols-1 w-full max-lg:px-5 md:max-lg:px-48 lg:grid-cols-4 px-20 gap-20 my-4">
             {
                 donations.map(donation => <Donation key={donation.id} donation={donation}></Donation>)
             }

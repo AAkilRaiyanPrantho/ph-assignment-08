@@ -7,7 +7,7 @@ const Home = () => {
         <div className="static">
             <Banner></Banner>
             </div>
-        <div className="absolute max-lg:relative lg:top-[1150px]">
+        <div className="absolute max-lg:relative lg:top-[850px]">
             <DonationCategories></DonationCategories>
             </div>
     </div>

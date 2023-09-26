@@ -18,8 +18,8 @@ const DonationDetails = () => {
                   }}>Donate ${price}</button></div>
               </div>
               <div className="p-6 lg:px-48">
-                <h2>{title}</h2>
-                <p>{description}</p>
+                <h2 className="text-5xl font-extrabold p-4">{title}</h2>
+                <p className="text-lg font-normal p-4">{description}</p>
               </div>
         </div>
     );

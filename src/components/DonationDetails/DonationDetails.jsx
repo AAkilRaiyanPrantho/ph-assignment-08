@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { savedDonations } from "../../utility/localStorage";
 
 const DonationDetails = () => {
   const details = useLoaderData();
@@ -10,7 +11,11 @@ const DonationDetails = () => {
   const detail = details.find((detail) => detail.id === idInt);
   const { picture, price, title, description, text_button_bg } = detail;
 
-  const notify = () => toast(`Thank you for your donation!!!`);
+  const handleDonations = () =>{
+    savedDonations(id);
+    toast(`Thank you for your donation!!!`);
+  } 
+  
 
   return (
     <div className="p-4 lg:px-20">
@@ -23,7 +28,7 @@ const DonationDetails = () => {
           />
         </div>
         <div className="absolute bottom-0 bg-[#0b0b0b]/50 max-lg:w-full lg:w-[1320px] h-[130px]">
-          <button onClick={notify}
+          <button onClick={handleDonations}
             className="btn btn-error text-[#FFF] relative left-12 top-6"
             style={{
               backgroundColor: text_button_bg,

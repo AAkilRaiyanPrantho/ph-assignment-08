@@ -8,6 +8,8 @@ const Donations = () => {
 
     const [givenDonations, setGivenDonations] = useState([]);
 
+    const [dataLength, setDataLength] = useState(4);
+
     useEffect(() => {
         const storedDonationIds = getStoredDonations();
         if(details.length > 0){
@@ -19,17 +21,19 @@ const Donations = () => {
     )
     return (
         <div>
-            <div className="grid max-lg:grid-cols-1 max-lg:px-4 max-lg:mx-0 md:px-20 lg:grid-cols-2 gap-x-20 gap-y-4 px-36 mx-40">
+            <div className="grid max-lg:grid-cols-1 max-lg:px-4 max-lg:mx-0 md:px-20 lg:grid-cols-2 gap-x-20 gap-y-4 px-36 mx-40 mb-4">
             <h2>Donation Details</h2>
             <h2>Total Donations Done: {givenDonations.length}</h2>
             
             {
-                givenDonations.map(givenDonation => <DonationCards key={givenDonation.id} givenDonation={givenDonation}></DonationCards>)
+                givenDonations.slice(0, dataLength).map(givenDonation => <DonationCards key={givenDonation.id} givenDonation={givenDonation}></DonationCards>)
             }
             
         </div>
-        <div className="flex justify-center items-center mx-auto my-10">
-        <button className="btn btn-error px-4 border-none text-[#FFF] bg-[#009444] rounded-lg">See All</button>
+        <div className={`flex justify-center items-center mx-auto my-10 ${dataLength === givenDonations.length && 'hidden'}`}>
+        <button 
+        onClick={() => setDataLength(givenDonations.length)}
+        className="btn btn-error px-4 border-none text-[#FFF] bg-[#009444] rounded-lg">See All</button>
         </div>
         </div>
         

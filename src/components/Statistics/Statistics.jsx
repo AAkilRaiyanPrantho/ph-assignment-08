@@ -50,7 +50,7 @@ const Statistics = () => {
 
   return (
     <div>
-      <div className="flex w-[600px] h-[600px] mx-auto">
+      <div className="flex mb-10 mx-auto max-md:w-[300px] max-md:h-[300px] max-lg:w-[450px] max-lg:h-[450px] lg:w-[600px] h-[600px]">
         <Pie options={options} data={data} />
       </div>
     </div>

@@ -23,7 +23,7 @@ const Statistics = () => {
 
       setDonationsGiven(donationsCompleted);
     }
-  }, []);
+  }, [details]);
 
   const donationSize = donationsGiven.length;
   console.log(donationSize);

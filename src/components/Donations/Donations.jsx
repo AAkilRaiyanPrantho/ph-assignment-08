@@ -17,7 +17,7 @@ const Donations = () => {
             console.log(donationsDone);
             setGivenDonations(donationsDone);
         }
-    },[]
+    },[details]
     )
     return (
         <div>

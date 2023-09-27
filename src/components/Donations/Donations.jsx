@@ -29,7 +29,7 @@ const Donations = () => {
             }
             
         </div>
-        <div className={`flex justify-center items-center mx-auto my-10 ${dataLength === givenDonations.length && 'hidden'}`}>
+        <div className={`flex justify-center items-center mx-auto my-10 ${givenDonations.length < 4 && 'hidden'} ${dataLength === givenDonations.length && 'hidden'}`}>
         <button 
         onClick={() => setDataLength(givenDonations.length)}
         className="btn btn-error px-4 border-none text-[#FFF] bg-[#009444] rounded-lg">See All</button>

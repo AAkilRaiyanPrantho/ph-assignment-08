@@ -1,10 +1,9 @@
 import PropTypes from "prop-types";
 
 const DonationCards = ({ givenDonation }) => {
-  const { id,title,picture,category,category_bg,card_bg,text_button_bg,price } = givenDonation;
+  const {title,picture,category,category_bg,card_bg,text_button_bg,price } = givenDonation;
   return (
     <div>
-      <h4>The data is here:{id}{title}</h4>
       <div className="flex w-full h-[200px] bg-base-100 shadow-xl rounded-lg lg:w-[650px]">
         <figure>
           <img

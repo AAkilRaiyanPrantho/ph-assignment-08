@@ -12,7 +12,7 @@ const DonationDetails = () => {
   const { picture, price, title, description, text_button_bg } = detail;
 
   const handleDonations = () =>{
-    savedDonations(id);
+    savedDonations(idInt);
     toast(`Thank you for your donation!!!`);
   } 
   

@@ -1,9 +1,38 @@
+import { useEffect, useState } from "react";
+import { useLoaderData } from "react-router-dom";
+import { getStoredDonations } from "../../utility/localStorage";
+import DonationCards from "../DonationCards/DonationCards";
 
 const Donations = () => {
+    const details = useLoaderData();
+
+    const [givenDonations, setGivenDonations] = useState([]);
+
+    useEffect(() => {
+        const storedDonationIds = getStoredDonations();
+        if(details.length > 0){
+            const donationsDone = details.filter(detail => storedDonationIds.includes(detail.id)) 
+            console.log(donationsDone);
+            setGivenDonations(donationsDone);
+        }
+    },[]
+    )
     return (
-        <div className="absolute z-10">
+        <div>
+            <div className="grid max-lg:grid-cols-1 max-lg:px-4 max-lg:mx-0 md:px-20 lg:grid-cols-2 gap-x-20 gap-y-4 px-36 mx-40">
             <h2>Donation Details</h2>
+            <h2>Total Donations Done: {givenDonations.length}</h2>
+            
+            {
+                givenDonations.map(givenDonation => <DonationCards key={givenDonation.id} givenDonation={givenDonation}></DonationCards>)
+            }
+            
         </div>
+        <div className="flex justify-center items-center mx-auto my-10">
+        <button className="btn btn-error px-4 border-none text-[#FFF] bg-[#009444] rounded-lg">See All</button>
+        </div>
+        </div>
+        
     );
 };
 
